@@ -62,8 +62,8 @@ The model outperforms both passive investing and probabilistic scaling.
 ## 📂 Project Structure
 
 ```
-├── strategy_runner.py           # Full training and evaluation script
-├── tech_model_predictions.csv   # Dataset with features and labels
+├── subset_trn.py           # Full training and evaluation script
+├── feature_subset_backtest_results.csv   # Dataset with features and labels
 ├── best_model_final_subset.pkl  # Trained LightGBM model
 ├── strategy_comparison_final_features.png  # Strategy performance plot
 ├── README.md                    # This file
