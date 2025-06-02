@@ -26,10 +26,11 @@ The output is a probability, which is translated into trading actions:
 Final model uses the following features:
 
 * `eps_surprise_pct`: Earnings surprise percentage
-* `rsi_5d`: 5-day Relative Strength Index
-* `macd_diff`: MACD histogram value
-* `sentiment_score`: FinBERT-based headline sentiment score
+* `positive_count`: Count of positive headlines
+* `negative_count`: Count of negative headlines 
+* `pos_total_ratio`: Ratio of positive headlines
 * `sentiment_label_encoded`: Encoded polarity label of sentiment (POS/NEG/NEUT)
+* `pos_neg_ratio`: Ratio of positive to negative headlines
 
 ## 🧪 Model
 
